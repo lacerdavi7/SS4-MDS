@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: bq_airbnb
+    description: 'BigQuery Airbnb'
+    database: dazzling-task-396122
+    schema: Raw_Airbnb
+    tables:
+      - name: Raw_Listings
+        description: 'Lista de apartamentos'
+      - name: Raw_Reviews
+        description: 'Avaliacao dos apartamentos'
